@@ -1,0 +1,13 @@
+salary=int(input("enter your salary:"))
+year=int(input("enter your experince :"))
+if  year>=10:
+    bouns=5000
+    final_salary=salary+bouns
+    print("bouns is ", bouns)
+    print("final salary is ", final_salary)
+elif year>=5:
+    bouns=2000
+    final_salary=salary+bouns
+    print("bouns is ", bouns)
+    print("final salary is ", final_salary)
+    

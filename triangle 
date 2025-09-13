@@ -1,0 +1,10 @@
+
+side1= int(input("enter your size:"))
+side2= int(input("enter your size:"))
+side3= int(input("enter your size:"))
+if side1==side2==side3:
+    print("Equilateral triangle")
+elif side1==side2:
+    print("Isosceles triangle ")
+elif side1!=side2!=side3:
+    print("Scalene triangle")

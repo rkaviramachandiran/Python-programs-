@@ -1,0 +1,11 @@
+age=int(input("Enter your age:"))
+stu=(input("are you student(Yes/No):"))
+if age<=12:
+    if stu=="yes":
+        print("discount 20% is",100-20)
+    else:
+         print("ticket amount is",100)
+elif (age>12 and age<18):
+    print("ticket amount is ",150)    
+elif (age<18):
+    print("ticket amount is ",200)
