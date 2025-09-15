@@ -1,0 +1,7 @@
+side1,side2,side3= map(int,input("enter your size:").split())
+if side1==side2==side3:
+    print("Equilateral triangle")
+elif side1==side2:
+    print("Isosceles triangle ")
+elif side1!=side2!=side3:
+    print("Scalene triangle")
