@@ -1,0 +1,9 @@
+mark_percen=int(input("Enter yourmark percentage:"))
+incomne=int(input("Enter family income:"))
+
+if (mark_percen>=85) and (incomne<=200000):
+    print("Full scholarship")
+elif (mark_percen>=70) and (incomne<=500000):
+    print("Half  scholarship")
+else:
+    print("No scholarship")

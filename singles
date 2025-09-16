@@ -1,0 +1,7 @@
+light= input("Light color (red, yellow, green):")
+if light=="red":
+    print("stop")
+elif light=="yellow":
+    print("Get redy")
+elif light =="green":
+    print("Go")
